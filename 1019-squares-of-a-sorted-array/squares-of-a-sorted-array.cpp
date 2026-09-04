@@ -16,10 +16,10 @@ public:
             }
         }
         for(int i = 0;i<neg.size();i++){
-                neg[i] = pow(neg[i],2);
+                neg[i] = neg[i]*neg[i];
             }
         for(int i =0 ;i<pos.size();i++){
-                pos[i] = pow(pos[i],2);
+                pos[i] = pos[i]*pos[i];
             }
         reverse(neg.begin(),neg.end());
 
