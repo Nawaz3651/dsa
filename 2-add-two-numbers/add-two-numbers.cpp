@@ -43,6 +43,7 @@ public:
             temp1 = temp1->next;
             curr = curr->next;
         }
+        
         while(temp2!=nullptr){
             int sum = carry+temp2->val;
             if(sum>=10){
